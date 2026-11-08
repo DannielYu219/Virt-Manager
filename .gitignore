@@ -1,0 +1,7 @@
+.build/
+artifacts/
+.DS_Store
+.swiftpm/
+.recovery/
+.dsh/
+Resources/WoA/utm-guest-tools-0.1.275.iso

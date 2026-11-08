@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>VirtManager</string>
+<key>CFBundleIdentifier</key><string>com.dannielyu.virtmanager</string>
+<key>CFBundleName</key><string>Virt Manager</string>
+<key>CFBundleDisplayName</key><string>Virt Manager</string>
+<key>CFBundleIconFile</key><string>VirtManager</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.2.0</string>
+<key>CFBundleVersion</key><string>2</string>
+<key>CFBundleDocumentTypes</key><array><dict>
+<key>CFBundleTypeName</key><string>Virt Manager Virtual Machine</string>
+<key>CFBundleTypeRole</key><string>Editor</string>
+<key>LSHandlerRank</key><string>Owner</string>
+<key>LSTypeIsPackage</key><true/>
+<key>LSItemContentTypes</key><array><string>com.dannielyu.virtmanager.vm</string></array>
+</dict></array>
+<key>UTExportedTypeDeclarations</key><array><dict>
+<key>UTTypeIdentifier</key><string>com.dannielyu.virtmanager.vm</string>
+<key>UTTypeDescription</key><string>Virt Manager 虚拟机</string>
+<key>UTTypeConformsTo</key><array><string>com.apple.package</string></array>
+<key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>virtvm</string></array></dict>
+</dict></array>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+</dict></plist>
